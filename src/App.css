@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'JetBrains-SemiBold';
+  src: local('JetBrains-SemiBold'), url(./assets/fonts/JetBrainsMono-SemiBold.ttf)
+}
+
+body{
+  font-family:'JetBrains-SemiBold';
+  background-image: url(./assets/Img/44a5ad06e558afa50e9a7bddeb531f84.webp);
+  background-size: cover;
+}
+
+#logo{
+  height: 35px;
+  margin-right: 10px;
+}
+
+header,footer{
+  padding-top: 15px;
+  padding-left: 15px;
+  background-color: greenyellow;
+  height: 45px;
+  color: white;
+}
+
+main{
+  min-height: 500px;
+}
