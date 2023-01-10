@@ -3,10 +3,25 @@
   src: local('JetBrains-SemiBold'), url(./assets/fonts/JetBrainsMono-SemiBold.ttf)
 }
 
+:root {
+
+  --color1 : #93e4c1; 
+  --color2: #3baea0; 
+  --color3: #118a7e; 
+  --color4 : #1f6f78; 
+ 
+}
+
+#header,#footer{
+  background-color: var(--color4) !important;
+}
+
 body{
-  font-family:'JetBrains-SemiBold';
-  background-image: url(./assets/Img/44a5ad06e558afa50e9a7bddeb531f84.webp);
+  font-family:'JetBrains-SemiBold'!important;
+  background-image: url(./assets/Img/bosque\ verde\ .jpg);
   background-size: cover;
+  color: rgba(0, 0, 0, 0.945)!important;
+  
 }
 
 #logo{
@@ -17,11 +32,19 @@ body{
 header,footer{
   padding-top: 15px;
   padding-left: 15px;
-  background-color: greenyellow;
   height: 45px;
   color: white;
 }
 
-main{
-  min-height: 500px;
+#main{
+  position: fixed;
+  max-height: calc(100% - 120px);
+  overflow: auto;
+  width: 100%;
+}
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
