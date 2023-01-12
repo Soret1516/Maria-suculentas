@@ -16,7 +16,7 @@ const inputs =[
   {name: 'document',type: 'text', label: 'Documento'},
   {name: 'email =',type: 'email', label: 'Correo'},
   {name: 'direccion',type: 'text', label: 'Direccion'},
-  {name: 'barrio',type: 'number', label: 'barrio'},
+  {name: 'barrio',type: 'text', label: 'barrio'},
   {name: 'telefono',type: 'text', label: 'Numero de telefono'},
 ]
 
